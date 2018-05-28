@@ -2,7 +2,7 @@
 
 ##### Linux Debian/Mint
 ```
-sudo apt-get install sqlite3 
+sudo apt-get install sqlite3
 ```
 ##### Archlinux
 ```
@@ -13,7 +13,7 @@ Starten:
 ```
 sqlite3 
 ```
-Datenbank öffnen:
+Datenbank oeffnen:
 ```
 .open /home/DEIN-PFAD/gekko/history/BEISPIEL_0.1.db
 ```

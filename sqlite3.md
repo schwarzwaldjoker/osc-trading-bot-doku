@@ -1,6 +1,6 @@
 ### SQLite installieren:
 
-##### Linux Debian/Mint
+##### Linux Debian/Ubuntu
 ```
 sudo apt-get install sqlite3
 ```
@@ -9,7 +9,7 @@ sudo apt-get install sqlite3
 sudo pacman -S sqlite3
 ```
 
-Starten:
+SQLite3 Starten:
 ```
 sqlite3 
 ```

@@ -1,9 +1,9 @@
 # OSC Trading Bot Installations- Anleitung
+<br>
 
 Dies ist eine Installations-Anleitung für Gekko, einen Open Source Cryptocurrency Trading Bot.
 Diese Anleitung ist für die Installation auf Linux Debian/Ubuntu, ArchLinux, Raspbian.
 
-<br>
 <br>
 
 #### Schritt 1: Benötigte Pakete installieren
@@ -18,6 +18,7 @@ Die Pakete heißen auf verschiedenen Linux-Distributionen teilweise anders. In u
 * Node.js v8: Die Plattform, auf der Gekko basiert
 * NPM: Der Paketmanager, um Module für Node.js zu installieren
 * Git: Das Versionskontrollsystem, um Repositories, u.a. Gekko selbst, von GitHub zu klonen
+<br>
 
 1.1: Die Pakete inkl. Abhängigkeiten werden unter **Linux Debian/Ubuntu** mit folgenden Befehlen installiert:
 ```
@@ -52,9 +53,6 @@ git --version
 	git version 2.7.4
 ```
 ![Version Test](https://github.com/schwarzwaldjoker/osc-trading-bot-doku/blob/master/screenshots/02_version-test.png)
-<br>
-
-
 
 <br>
 <br>
@@ -63,7 +61,7 @@ git --version
 
 
 Wir benutzen den stabilen Zweig des originalen GitHub Repositories von [askmike](https://github.com/askmike/).
-Das Gekko inkl. Abhängigkeiten werden unter Linux Debian/Ubuntu, ArchLinux, Raspbian mit folgenden Befehlen installiert:
+Das Gekko inkl. Abhängigkeiten werden unter **Linux Debian/Ubuntu, ArchLinux, Raspbian** mit folgenden Befehlen installiert:
 
 
 In das Home Verzeichnis wechseln.
@@ -100,7 +98,7 @@ Der Befehl startet den Webserver und öffnet automatisch ein Browser-Fenster. So
 
 http://localhost:3000/
 
-                                   scrennshot           Gekko Startbildschirm
+![Gekko](https://github.com/schwarzwaldjoker/osc-trading-bot-doku/blob/master/screenshots/01_gekko-ui.png)
 
 In der Konsole, in der Gekko ausgeführt wird, kann es mit der Tastenkombination Ctrl-C (deutsch Strg-C) beendet werden.
 
@@ -208,6 +206,11 @@ Das ist unter dieser URL zu finden:
 
 http://localhost:3000/#/data/importer
 
+<br>
+
+![Data Importer](https://github.com/schwarzwaldjoker/osc-trading-bot-doku/blob/master/screenshots/03_daten-import.png)
+
+<br>
 
 4.2: Datensätze direkt importieren
 
@@ -241,18 +244,16 @@ Siehe dazu die Anleitung [datensaetze-entfernen.md](datensaetze-entfernen.md)
 
 #### Schritt 5. Strategien testen (Backtest)
 
-5.1 Backtest durchführen
-
 Gekko bietet die Möglichkeit, eine Strategie auf einem Datensatz zu testen.
 Das funktioniert aber nur für jeweils eine Strategie, d.h. es muss für jede manuell gestartet werden.
 
+![Backtest-UI](https://github.com/schwarzwaldjoker/osc-trading-bot-doku/blob/master/screenshots/05_backtest-gekko.png)
 
-	             sreenshot            Ergebnis eines Backtests
+5.1 Backtest Tool installieren
 
-
-xFFFFF bietet in einem seiner Repositories ein Tool an, das alle installierten Strategien nacheinander testet und die Ergebnisse sowohl in der Konsole ausgibt, als auch in einer CSV Datei speichert.
-
-5.2 Backtest Tool installieren
+[xFFFFF](https://github.com/xFFFFF/) bietet in einem seiner Repositories ein Tool an,
+das alle installierten Strategien nacheinander testet und die Ergebnisse sowohl in der Konsole ausgibt,
+als auch in einer CSV Datei speichert.
 
 Neueste Version von  https://github.com/xFFFFF/Gekko-BacktestTool/releases herunterladen.
 
@@ -260,11 +261,11 @@ Neueste Version von  https://github.com/xFFFFF/Gekko-BacktestTool/releases herun
 
 Die .zip Datei entpacken und den Inhalt (*backtest und backtest-config.pl*) in das **Hauptverzeichnis** von Gekko kopieren.
 
-Weitere Installations- Anleitungen findet man direkt auf GitHub von xFFFFF:
+Weitere Installations- Anleitungen findet man direkt auf GitHub von [xFFFFF](https://github.com/xFFFFF/):
 
 https://github.com/xFFFFF/Gekko-BacktestTool
 
-5.3 Backtest Tool starten
+5.2 Backtest durchführen
 
 Um den ausführlichen Backtest im Terminal zu starten wechselt man in das Gekko Hauptverzeichnis cd ~/gekko und verwendet folgenden Befehl:
 ```
@@ -272,7 +273,7 @@ Um den ausführlichen Backtest im Terminal zu starten wechselt man in das Gekko 
 ```
 <br>
 
-         screenshhot                                    Willkommensmaske von Gekko Backtest Tool
+![Backtest-Tool](https://github.com/schwarzwaldjoker/osc-trading-bot-doku/blob/master/screenshots/06_backtest-tool.png)
 
 [TODO: Anleitung, wie man das Tool verwendet]
 Zusätzliche Optionen zum *./backtest*

@@ -53,6 +53,7 @@ git --version
 	git version 2.7.4
 ```
 ![Version Test](https://github.com/schwarzwaldjoker/osc-trading-bot-doku/blob/master/screenshots/02_version-test.png)
+*Ergebnisse von Versiontests*
 
 <br>
 <br>
@@ -99,6 +100,9 @@ Der Befehl startet den Webserver und öffnet automatisch ein Browser-Fenster. So
 http://localhost:3000/
 
 ![Gekko](https://github.com/schwarzwaldjoker/osc-trading-bot-doku/blob/master/screenshots/01_gekko-ui.png)
+*Gekko Start*
+
+<br>
 
 In der Konsole, in der Gekko ausgeführt wird, kann es mit der Tastenkombination Ctrl-C (deutsch Strg-C) beendet werden.
 
@@ -209,6 +213,7 @@ http://localhost:3000/#/data/importer
 <br>
 
 ![Data Importer](https://github.com/schwarzwaldjoker/osc-trading-bot-doku/blob/master/screenshots/03_daten-import.png)
+*Datensätze mit Gekko importieren (lange Wartezeiten!)*
 
 <br>
 
@@ -248,6 +253,9 @@ Gekko bietet die Möglichkeit, eine Strategie auf einem Datensatz zu testen.
 Das funktioniert aber nur für jeweils eine Strategie, d.h. es muss für jede manuell gestartet werden.
 
 ![Backtest-UI](https://github.com/schwarzwaldjoker/osc-trading-bot-doku/blob/master/screenshots/05_backtest-gekko.png)
+*Gekko eigener Backtest (nur einzelne Paare und Strategien)*
+
+<br>
 
 5.1 Backtest Tool installieren
 
@@ -274,6 +282,9 @@ Um den ausführlichen Backtest im Terminal zu starten wechselt man in das Gekko 
 <br>
 
 ![Backtest-Tool](https://github.com/schwarzwaldjoker/osc-trading-bot-doku/blob/master/screenshots/06_backtest-tool.png)
+*Backtest Tool von xFFFFF*
+
+<br>
 
 [TODO: Anleitung, wie man das Tool verwendet]
 Zusätzliche Optionen zum *./backtest*

@@ -12,7 +12,6 @@ Mit **Dateimanager** zum Verzeichnis *~/gekko/history* Navigieren und die entspr
 
 DB Browser for SQL Lite über die Anwendungsverwaltung nachinstallieren, starten, zum *~/gekko/history* Verzeichnis navigieren, entsprechende Datenbank.db öffnen (1) und einzelne Tabellen/Paare löschen (2).
 
-                                  sreenshot DB browser
 
 <br>
 

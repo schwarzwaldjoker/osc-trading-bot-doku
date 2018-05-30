@@ -12,7 +12,8 @@ Mit **Dateimanager** zum Verzeichnis *~/gekko/history* Navigieren und die entspr
 
 DB Browser for SQL Lite über die Anwendungsverwaltung nachinstallieren, starten, zum *~/gekko/history* Verzeichnis navigieren, entsprechende Datenbank.db öffnen (1) und einzelne Tabellen/Paare löschen (2).
 
-
+![DB Browser](https://github.com/schwarzwaldjoker/osc-trading-bot-doku/blob/master/screenshots/04_db-browser.png)
+*DB Browser for SQL Lite*
 <br>
 
 4.3.3 Mit [SQLite3](https://wiki.ubuntuusers.de/SQLite/) per Eingabebauforderung einzelne Tabellen löschen

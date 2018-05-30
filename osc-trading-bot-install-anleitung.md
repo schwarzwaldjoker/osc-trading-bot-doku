@@ -51,9 +51,10 @@ npm -v
 git --version
 	git version 2.7.4
 ```
+![Version Test](https://github.com/schwarzwaldjoker/osc-trading-bot-doku/blob/master/screenshots/02_version-test.png)
 <br>
 
-									sreenshot		Ausgabe Version Überprüfung
+
 
 <br>
 <br>

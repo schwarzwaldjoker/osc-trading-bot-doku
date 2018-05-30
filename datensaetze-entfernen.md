@@ -1,6 +1,6 @@
 # Nicht mehr benötigte Datensätze wieder entfernen
 
-Wenn Datensätze nicht mehr benötigt, können diese auch wieder entfernt werden. Dazu wird entweder die komplette Exchange- Datenbank aus dem Ordner /history beseitigt oder die einzelne Paare/Tabellen mit dem Tool „DB Browser for SQLite“ (GUI Anwender) bzw. das Paket SQLite3 (SSH Anwender) entfernt.
+Werden Datensätze nicht mehr benötigt, können diese auch wieder entfernt werden. Dazu wird entweder die komplette Exchange- Datenbank aus dem Ordner /history beseitigt oder die einzelne Paare/Tabellen mit dem Tool „DB Browser for SQLite“ (GUI Anwender) bzw. das Paket SQLite3 (Konsole Anwender) entfernt.
 
 4.3.1 Komplette  Exchange- Datenbank löschen
 

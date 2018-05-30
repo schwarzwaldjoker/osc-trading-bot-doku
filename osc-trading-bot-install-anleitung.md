@@ -263,7 +263,7 @@ Das funktioniert aber nur für jeweils eine Strategie, d.h. es muss für jede ma
 das alle installierten Strategien nacheinander testet und die Ergebnisse sowohl in der Konsole ausgibt,
 als auch in einer CSV Datei speichert.
 
-Neueste Version von  https://github.com/xFFFFF/Gekko-BacktestTool/releases herunterladen.
+Neueste Version von https://github.com/xFFFFF/Gekko-BacktestTool/releases herunterladen.
 
 [Gekko-BacktestTool-v0.7-Ubuntu-amd64.zip](https://github.com/xFFFFF/Gekko-BacktestTool/releases/download/v0.7/Gekko-BacktestTool-v0.7-Ubuntu-amd64.zip)
 

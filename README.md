@@ -1,6 +1,6 @@
 ﻿# OSC Trading-Bot
 
-Dies ist eine Dokumentation rund um den Open Source Cryptocurrency Trading Bot. Das Ziel dieser Doku ist das jeder sich selber einen Bot installieren, konfigurieren und anwenden kann.
+Dies ist eine Dokumentation rund um den Open Source Cryptocurrency Trading Bot. Das Ziel dieser Doku ist, dass jeder sich selber einen Bot installieren, konfigurieren und anwenden kann.
 
 
 - Minimale Hardware Kosten

@@ -1,9 +1,12 @@
-﻿# osc-trading-bot-doku
-Dies ist eine Installations-Anleitung für Gekko, einen Open Source Cryptocurrency Trading Bot. Diese Anleitung ist für die Installation auf **Linux Debian/Ubuntu, ArchLinux, Raspbian**.
+﻿# OSC Trading-Bot
 
-Und weiter geht’s, diesmal kursiv
+Dies ist eine Dokumentation rund um den Open Source Cryptocurrency Trading Bot. Das Ziel dieser Doku ist das jeder sich selber einen Bot installieren, konfigurieren und anwenden kann.
 
-- dasdsa
-- asdasddas
-  - ashdkahsdka
-  
+
+- Minimale Hardware Kosten
+- Open Source Software
+
+Die Installation des Bots wurde auf **Linux Debian/Ubuntu, ArchLinux und Raspbian** durchgeführt und getestet.
+
+Warnung!
+Wir übernehmen keine Verantwortung für die Aktivitäten des Bots

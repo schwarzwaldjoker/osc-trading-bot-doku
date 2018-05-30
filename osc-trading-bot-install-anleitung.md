@@ -10,14 +10,15 @@ Diese Anleitung ist für die Installation auf Linux Debian/Ubuntu, ArchLinux, Ra
 
 Auf einer jungfräulichen Linux-Distribution werden zuerst mehrere Programme benötigt. Als Beispiel wird eine aktuelle Linux Mint Xfce Distribution verwendet.
 
-> WICHTIG!<br>
-> Die aktuelle Version von Node.js ist v10. Gekko benötigt jedoch v8, mit der neuesten Version ist es nicht kompatibel.
-
 Die Pakete heißen auf verschiedenen Linux-Distributionen teilweise anders. In unserem Beispiel werden folgende Pakete benötigt:
 
 * Node.js v8: Die Plattform, auf der Gekko basiert
 * NPM: Der Paketmanager, um Module für Node.js zu installieren
 * Git: Das Versionskontrollsystem, um Repositories, u.a. Gekko selbst, von GitHub zu klonen
+
+> WICHTIG!<br>
+> Die aktuelle Version von Node.js ist v10. Gekko benötigt jedoch v8, mit der neuesten Version ist es nicht kompatibel.
+
 <br>
 
 1.1: Die Pakete inkl. Abhängigkeiten werden unter **Linux Debian/Ubuntu** mit folgenden Befehlen installiert:
@@ -61,7 +62,7 @@ git --version
 #### Schritt 2: Gekko installieren
 
 
-Wir benutzen den stabilen Zweig des originalen GitHub Repositories von [askmike](https://github.com/askmike/).
+Es wird der stabile Zweig des originalen GitHub Repositories von [askmike](https://github.com/askmike/) benutzt.
 Das Gekko inkl. Abhängigkeiten werden unter **Linux Debian/Ubuntu, ArchLinux, Raspbian** mit folgenden Befehlen installiert:
 
 
@@ -238,7 +239,7 @@ mkdir ~/gekko/history
 
 4.3 Nicht mehr benötigte Datensätze wieder entfernen
 
-Wenn Datensätze nicht mehr benötigt werden, können diese auch wieder entfernt werden.
+Werden Datensätze nicht mehr benötigt, können diese auch wieder entfernt werden.
 Dazu wird entweder die komplette Exchange- Datenbank aus dem Ordner */history* beseitigt
 oder die einzelne Paare/Tabellen mit dem Tool „DB Browser for SQLite“ (GUI Anwender) bzw. das Paket SQLite3 (SSH Anwender) entfernt.
 

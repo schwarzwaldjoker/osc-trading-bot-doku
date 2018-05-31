@@ -1,10 +1,15 @@
 # OSC Trading Bot Installations- Anleitung
 <br>
 
-Dies ist eine Installations-Anleitung für Gekko, einen Open Source Cryptocurrency Trading Bot.
+Dies ist eine Installations-Anleitung für [Gekko](https://gekko.wizb.it/), einen Open Source Cryptocurrency Trading Bot.
 Diese Anleitung ist für die Installation auf Linux Debian/Ubuntu, ArchLinux, Raspbian.
 
 <br>
+
+Die komplette Installation gibt es auch als fertigen Skript das von [BannanaDJoe](https://github.com/BannanaDJoe/) geschrieben wurde.
+Nach der Installation mit dem Skript müssen nur noch die gewünschten Datensätze (wie im **Schritt: 4. beschrieben**) importiert werden.
+
+https://github.com/BannanaDJoe/scripts/tree/master/gekko-scripts
 
 #### Schritt 1: Benötigte Pakete installieren
 
@@ -25,7 +30,8 @@ Die Pakete heißen auf verschiedenen Linux-Distributionen teilweise anders. In u
 ```
 curl -sL https://deb.nodesource.com/setup_8.x | sudo bash -
 sudo apt-get install nodejs
-sudo apt-get install npm
+sudo npm i npm@latest -g
+
 sudo apt-get install git
 ```
 <br>
@@ -54,6 +60,7 @@ git --version
 	git version 2.7.4
 ```
 ![Version Test](https://github.com/schwarzwaldjoker/osc-trading-bot-doku/blob/master/screenshots/02_version-test.png)
+
 *Ergebnisse von Versiontests*
 
 <br>
@@ -101,9 +108,12 @@ Der Befehl startet den Webserver und öffnet automatisch ein Browser-Fenster. So
 http://localhost:3000/
 
 ![Gekko](https://github.com/schwarzwaldjoker/osc-trading-bot-doku/blob/master/screenshots/01_gekko-ui.png)
+
 *Gekko Start*
 
 <br>
+
+Um mit der Installation fortzufahren sollte Gekko wieder beendet werden.
 
 In der Konsole, in der Gekko ausgeführt wird, kann es mit der Tastenkombination Ctrl-C (deutsch Strg-C) beendet werden.
 
@@ -142,7 +152,7 @@ Eine Liste von Indikatoren, die hier verwendet werden:
 3.1: Zusätzliche Strategien installieren
 
 Es gibt viele Quellen für einzelne Strategien.
-Der GitHub User [xFFFFF](https://github.com/xFFFFF/) hat in einem seiner Repositories eine Sammlung mit über 40 Strategien inkl. eines Installations-Scripts zusammen getragen.
+Der GitHub User [xFFFFF](https://github.com/xFFFFF/) hat in einem seiner Repositories eine Sammlung mit über 40 Strategien inkl. eines Installations-Skripts zusammen getragen.
 Dieses Repository klont man mit folgendem Befehl:
 ```
 git clone --recursive https://github.com/xFFFFF/Gekko-Strategies
@@ -164,7 +174,7 @@ Installations-Skript ausführen. Hat man Gekko, wie oben beschrieben, ins Home V
 ```
 ./install.sh ~/gekko
 ```
-Der Pfad ~/gekko muss natürlich entsprechend angepasst werden, sollte Gekko in einem anderen Ordner liegen.
+Der Pfad *~/gekko* muss natürlich entsprechend angepasst werden, sollte Gekko in einem anderen Ordner liegen.
 
 <br>
 
@@ -178,15 +188,15 @@ Manche Strategien benötigen zusätzliche Konfiguration oder Pakete, um zu funkt
 * ichimoku
 ```
 npm install --save ichimoku
-npm install talib		xxx
-npm install tulind		xxx
+npm install talib		xxx < Mint
+npm install tulind		xxx < Mint
 npm install mathjs
 npm install convnetjs
 npm install joi
-npm install alligator		2x WARN
-npm install zero-fill		2x WARN
-npm install numbro		2x WARN
-npm install gauss		2x WARN
+npm install alligator		2x WARN immer
+npm install zero-fill		2x WARN immer
+npm install numbro		2x WARN immer
+npm install gauss		2x WARN immer
 ```
 
     [TODO: Erklärung]
@@ -214,6 +224,7 @@ http://localhost:3000/#/data/importer
 <br>
 
 ![Data Importer](https://github.com/schwarzwaldjoker/osc-trading-bot-doku/blob/master/screenshots/03_daten-import.png)
+
 *Datensätze mit Gekko importieren (lange Wartezeiten!)*
 
 <br>
@@ -254,6 +265,7 @@ Gekko bietet die Möglichkeit, eine Strategie auf einem Datensatz zu testen.
 Das funktioniert aber nur für jeweils eine Strategie, d.h. es muss für jede manuell gestartet werden.
 
 ![Backtest-UI](https://github.com/schwarzwaldjoker/osc-trading-bot-doku/blob/master/screenshots/05_backtest-gekko.png)
+
 *Gekko eigener Backtest (nur einzelne Paare und Strategien)*
 
 <br>
@@ -266,7 +278,7 @@ als auch in einer CSV Datei speichert.
 
 Neueste Version von https://github.com/xFFFFF/Gekko-BacktestTool/releases herunterladen.
 
-[Gekko-BacktestTool-v0.7-Ubuntu-amd64.zip](https://github.com/xFFFFF/Gekko-BacktestTool/releases/download/v0.7/Gekko-BacktestTool-v0.7-Ubuntu-amd64.zip)
+Download: [Gekko-BacktestTool-v0.7-Ubuntu-amd64.zip](https://github.com/xFFFFF/Gekko-BacktestTool/releases/download/v0.7/Gekko-BacktestTool-v0.7-Ubuntu-amd64.zip)
 
 Die .zip Datei entpacken und den Inhalt (*backtest und backtest-config.pl*) in das **Hauptverzeichnis** von Gekko kopieren.
 
@@ -283,6 +295,7 @@ Um den ausführlichen Backtest im Terminal zu starten wechselt man in das Gekko 
 <br>
 
 ![Backtest-Tool](https://github.com/schwarzwaldjoker/osc-trading-bot-doku/blob/master/screenshots/06_backtest-tool.png)
+
 *Backtest Tool von xFFFFF*
 
 <br>
@@ -340,7 +353,7 @@ https://gekko.wizb.it/
 Offizielles Gekko Forum
 https://forum.gekko.wizb.it/thread-1676.html
 
-Installations- Script BannanaDJoe
+Installations- Skript BannanaDJoe
 https://github.com/BannanaDJoe/scripts/tree/master/gekko-scripts
 
 GitHub Help

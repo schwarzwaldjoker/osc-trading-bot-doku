@@ -13,11 +13,27 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf />
+    <leaf>
+      <file leaf-file-name="osc-trading-bot-install-anleitung.md" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/osc-trading-bot-install-anleitung.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="172">
+                <caret line="192" column="18" lean-forward="true" selection-start-line="192" selection-start-column="18" selection-end-line="192" selection-end-column="18" />
+              </first_editor>
+              <second_editor>
+                <markdownNavigatorState />
+              </second_editor>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
       <find>ssh</find>
+      <find>script</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -34,8 +50,9 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="y" value="256" />
-    <option name="width" value="1537" />
+    <option name="x" value="1329" />
+    <option name="y" value="269" />
+    <option name="width" value="1280" />
     <option name="height" value="768" />
   </component>
   <component name="ProjectLevelVcsManager">
@@ -46,6 +63,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="Scope" />
       <pane id="AndroidView" />
       <pane id="ProjectPane">
@@ -59,7 +77,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -135,7 +152,8 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="256" width="1537" height="768" extended-state="0" />
+    <frame x="1329" y="269" width="1280" height="768" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -149,7 +167,7 @@
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1543974" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1541471" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="2" />
@@ -210,7 +228,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/sqlite3.md" />
     <entry file="file://$PROJECT_DIR$/README.md">
-      <provider editor-type-id="text-editor" />
       <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="180">
@@ -221,19 +238,7 @@
           </second_editor>
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/osc-trading-bot-install-anleitung.md">
       <provider editor-type-id="text-editor" />
-      <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="60">
-            <caret line="241" column="45" selection-start-line="241" selection-start-column="45" selection-end-line="241" selection-end-column="45" />
-          </first_editor>
-          <second_editor>
-            <markdownNavigatorState />
-          </second_editor>
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/datensaetze-entfernen.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
@@ -246,6 +251,19 @@
           </second_editor>
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/osc-trading-bot-install-anleitung.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="172">
+            <caret line="192" column="18" lean-forward="true" selection-start-line="192" selection-start-column="18" selection-end-line="192" selection-end-column="18" />
+          </first_editor>
+          <second_editor>
+            <markdownNavigatorState />
+          </second_editor>
+        </state>
+      </provider>
+      <provider editor-type-id="text-editor" />
     </entry>
   </component>
 </project>
